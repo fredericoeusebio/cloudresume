@@ -20,6 +20,6 @@ jobs:
       with: 
         scope: subscription 
         subscriptionId: ${{ secrets.SUBSCRIPTION_ID }}
-        region: UK South
+        region: uksouth
         template: ./arm-template/resourcegroup.json
         deploymentName: rg-azure-automation
