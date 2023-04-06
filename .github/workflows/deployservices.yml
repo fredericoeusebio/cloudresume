@@ -1,0 +1,10 @@
+name: Deploy Services
+
+on:
+  workflow_call: 
+
+jobs:
+
+ call-workflow-in-local-repo:
+  uses: ./.github/workflows/cloudresume.yml
+ 
