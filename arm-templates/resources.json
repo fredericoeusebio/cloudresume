@@ -69,6 +69,14 @@
     },
     "variables": {},
     "resources": [
+     {
+        "name": "resourceGroup",
+        "type": "Microsoft.Resources/resourceGroups",
+        "apiVersion": "2021-05-01",
+        "location": "uksouth",
+        "dependsOn": [],
+        "tags": {}
+     }
         {
             "type": "Microsoft.Cdn/profiles",
             "apiVersion": "2022-11-01-preview",
