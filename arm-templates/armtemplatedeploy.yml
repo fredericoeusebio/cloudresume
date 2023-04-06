@@ -1,0 +1,22 @@
+name: armTemplateDeploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  armTemplateDeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Deploy ARM Template
+        uses: azure/arm-deploy@v1
+        with:
+          resourceGroupName: ${{ secrets.RESOURCE_GROUP_NAME }}
+          template: arm-templates\azuredeploy.json
+          parameters: arm-templates\azuredeploy.parameters.json
+          deploymentName: armTemplateDeploy
