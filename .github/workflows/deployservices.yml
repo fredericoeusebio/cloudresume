@@ -1,11 +1,10 @@
-name: Deploy Services
+name: Deploy services
 
-on:
-  push:
-        branches: [ master ]
-        paths: 
-        - 'master/**'
+on: 
+  workflow_dispatch:
+  
+  
+jobs: 
 
-jobs:
-  uses: ./.github/workflows/cloudresume.yml
- 
+  call-workflow-in-local-repo:
+    uses: ./.github/workflows/cloudresume.yml
