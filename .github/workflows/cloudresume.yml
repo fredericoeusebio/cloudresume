@@ -1,8 +1,11 @@
 name: Blob storage website CI
+#Deploy when push is made from master
 
 on:
     push:
         branches: [ master ]
+        paths: 
+        - 'master/**'
 
 jobs:
   build:
