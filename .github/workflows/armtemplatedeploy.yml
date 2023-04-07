@@ -14,12 +14,3 @@ jobs:
       uses: azure/login@v1
       with:
         creds: ${{ secrets.Azure_CREDENTIALS }}
-        
-    - name: Deploy Resource Group
-      uses: Azure/arm-deploy@v1
-      with: 
-        scope: subscription 
-        subscriptionId: ${{ secrets.SUBSCRIPTION_ID }}
-        region: uksouth
-        template: ./arm-template/resourcegroup.json
-        deploymentName: rg-azure-automation
