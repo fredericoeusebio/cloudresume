@@ -24,7 +24,7 @@
         {
             "name": "[parameters('resourceGroupName')]",
             "type": "Microsoft.Resources/resourceGroups",
-            "apiVersion": "2021-05-01",
+            "apiVersion": "2023-03-01-preview",
             "location": "[parameters('location')]",
             "dependsOn": [],
             "tags": {}
