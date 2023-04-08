@@ -15,7 +15,7 @@
             "metadata": {
                 "description": "Enter the name for the resource group"
             },
-            "defaultValue": "rg-azure-automation"
+            "defaultValue": "rg-githubactions"
         }
     },
     "functions": [],
