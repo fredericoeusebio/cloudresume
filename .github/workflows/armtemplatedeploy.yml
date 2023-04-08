@@ -1,7 +1,10 @@
 name: armTemplateDeploy
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
  
 jobs:
   armDeploy:
@@ -17,10 +20,8 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     - name: Deploy Resource Group rg-githubactions
-      uses: Azure/arm-deploy@v1
+      uses: Azure/cli@v1.0.4
       with:
-        scope: subscription
-        subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-        region: uksouth
-        template: ./resourcegroup.json
-        deploymentName: rg-githubactions
+        azcliversion: 2.0.80
+        inlineScript: |
+          az deployment sub create --location "uksouth" --template-file "resourcegroup.json" --template-file ./arm-template/resourgroup.json
