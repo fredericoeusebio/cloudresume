@@ -20,7 +20,7 @@ jobs:
       uses: Azure/arm-deploy@v1
       with:
         scope: subscription
-        subscriptionId: 1e7450d7-134c-47b5-86fa-d9b79e280ede
+        subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
         region: uksouth
         template: ./resourcegroup.json
         deploymentName: rg-githubactions
