@@ -22,13 +22,13 @@
     "variables": {},
     "resources": [
         {
-            "name": "[parameters('resourceGroupName')]",
+            "name": "[('resourceGroupName')]",
             "type": "Microsoft.Resources/resourceGroups",
             "apiVersion": "2023-03-01-preview",
             "location": "[parameters('location')]",
             "dependsOn": [],
             "tags": {}
         }
-    ],
+],
     "outputs": {}
 }
