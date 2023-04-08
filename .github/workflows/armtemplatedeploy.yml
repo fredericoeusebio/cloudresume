@@ -9,19 +9,18 @@ on:
 jobs:
   armDeploy:
     runs-on: ubuntu-latest
+    
+    steps:
+      -uses: actions/checkout@v2
 
-jobs:
-  armDeploy:
-    -uses: actions/checkout@v2
+      -name: Azure Login
+       uses: azure/login@v1
+       with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    -name: Azure Login
-     uses: azure/login@v1
-     with:
-       creds: ${{ secrets.AZURE_CREDENTIALS }}
-
-    -name: Deploy Resorce Group rg-githubactions with AZ CLI
-     uses: azure/CLI@v1.0.7
-     with:
+      -name: Deploy Resorce Group rg-githubactions with AZ CLI
+       uses: azure/CLI@v1.0.7
+       with:
        azcliversion: 2.0.80
        inlineScript: |
          az group create --name rg-githubactions --location uksouth
