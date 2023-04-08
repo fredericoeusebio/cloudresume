@@ -21,7 +21,6 @@ jobs:
       with:
         scope: subscription
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-        region: 'uksouth'
-        resourceGroupName: rg-githubactions
+        resourceGroupName: Production
         template: ./arm-template/resourcegroup.json
         deploymentName: rg-githubactions
