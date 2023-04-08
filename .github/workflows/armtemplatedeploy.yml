@@ -10,17 +10,20 @@ jobs:
   armDeploy:
     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+jobs:
+  armDeploy:
+    -uses: actions/checkout@v2
 
-    - name: Login to Azure
-      uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    -name: Azure Login
+     uses: azure/login@v1
+     with:
+       creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Azure CLI Action
-        uses: Azure/cli@v1.0.7
-        with:
-        inlineScript: |
-          az deployment sub create --location "uksouth" --template-file "resourcegroup.json" --template-file ./arm-template/resourgroup.json
+    -name: Deploy Resorce Group rg-githubactions with AZ CLI
+     uses: azure/CLI@v1.0.7
+     with:
+       azcliversion: 2.0.80
+       inlineScript: |
+         az group create --name rg-githubactions --location uksouth
+         az group deployment sub create --location "uksouth" --template-file ./arm-template/resourcegroup.json
+
