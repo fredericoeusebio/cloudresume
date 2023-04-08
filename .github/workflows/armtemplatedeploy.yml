@@ -1,28 +1,25 @@
-name: armTemplateDeploy
+name: armTemplateDeployment
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
- 
+    branches:
+      - master
+  workflow_dispatch:
+
 jobs:
   armDeploy:
     runs-on: ubuntu-latest
-    
-    steps:
-      -uses: actions/checkout@v2
 
-      -name: Azure Login
-       uses: azure/login@v1
-       with:
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Azure Login
+        uses: Azure/login@v1
+        with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      -name: Deploy Resorce Group rg-githubactions with AZ CLI
-       uses: azure/CLI@v1.0.7
-       with:
-       azcliversion: 2.0.80
-       inlineScript: |
-         az group create --name rg-githubactions --location uksouth
-         az group deployment sub create --location "uksouth" --template-file ./arm-template/resourcegroup.json
-
+      - name: Deploy Resource Group rg-githubactions with AZ CLI
+        uses: Azure/cli@1.0.7
+        with:
+          inlinescript: |
+            az deployment sub create --location "Australia East" --template-file ./arm-templates/resourcegroup.json
