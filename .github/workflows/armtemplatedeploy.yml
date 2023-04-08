@@ -5,7 +5,7 @@ on:
 
 env:
   AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-  AZURE_RESOURCE_GROUP: rg-githubActions
+  AZURE_RESOURCE_GROUP: Production
     
 jobs:
   armDeploy:
