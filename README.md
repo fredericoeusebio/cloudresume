@@ -26,7 +26,10 @@ individuals develop cloud skills.
 widely used source control software used by millions of developers for collaborative purposes and to keep track of work completed. [Please follow the link to 
 learn how to create a github repo.](https://docs.github.com/en/get-started/quickstart/create-a-repo) 
 
-### Use HTML and CSS to build the website and store the code in the repo.
+### Use HTML and CSS to build the website and store the code in the repo
+
+- My resume was written in HTML and styled with CSS. To understand more of both languages I took a course on Pluralsight, which is a paid course however, there are 
+a numbers of resources available online at no cost. 
 
 ## Acknowledgments
 
