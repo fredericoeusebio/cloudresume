@@ -5,11 +5,18 @@ Thank you for visiting my repo, keep learning and keep improving 💪
 This is my resume hosted in Azure. The CRC was originally created by *[Forest Brazeal](https://forrestbrazeal.com/#about)* with the objective of helping
 individuals develop cloud skills. 
 
-👉[My Resume](https://www.feusebio.co.uk/) 👉*[My Blog](insert link:)*
+👉[My Resume](https://www.feusebio.co.uk/) 👉[My Blog](insert link:)
 
-## Description
+## Introduction
 
-An in-depth paragraph about your project and overview of use.
+✔Create a GitHub repo.
+✔Use HTML and CSS to build the website and store the code in the repo.
+Add a visitor count to the website.
+✔Deploy the website to Azure Blob Storage.
+✔Enable HTTPS and custom domain support.
+✔Set up GitHub Actions.
+Configure IaC using Github Actions and Azure Bicep
+Write a blog post.
 
 ## Getting Started
 
