@@ -9,11 +9,11 @@ individuals develop cloud skills.
 
 ## Introduction
 
--  ✔Create a GitHub repo.
-- ✔Use HTML and CSS to build the website and store the code in the repo.
+- Create a GitHub repo.
+- Use HTML and CSS to build the website and store the code in the repo.
 - Add a visitor count to the website.
-- ✔Deploy the website to Azure Blob Storage.
-- ✔Enable HTTPS and custom domain support.
+- Deploy the website to Azure Blob Storage.
+- Enable HTTPS and custom domain support.
 - Set up GitHub Actions.
 - Configure IaC using Github Actions and Azure Bicep
 - Write a blog post.
@@ -25,6 +25,8 @@ individuals develop cloud skills.
 - Creating a GitHub repo was the first step to complete this challenge both because it is good practice to store your projects in a remote repo and because its a 
 widely used source control software used by millions of developers for collaborative purposes and to keep track of work completed. [Please follow the link to 
 learn how to create a github repo.](https://docs.github.com/en/get-started/quickstart/create-a-repo) 
+
+### Use HTML and CSS to build the website and store the code in the repo.
 
 ## Acknowledgments
 
