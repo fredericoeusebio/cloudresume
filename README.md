@@ -5,7 +5,7 @@ Thank you for visiting my repo, keep learning and keep improving 💪
 This is my resume hosted in Azure. The CRC was originally created by *[Forest Brazeal](https://forrestbrazeal.com/#about)* with the objective of helping
 individuals develop cloud skills. 
 
-👉[My Resume](https:\\www.feusebio.co.uk) 👉*[My Blog](insert link:)*
+👉[My Resume](https://www.feusebio.co.uk/) 👉*[My Blog](insert link:)*
 
 ## Description
 
