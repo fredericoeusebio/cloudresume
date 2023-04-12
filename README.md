@@ -35,6 +35,11 @@ a numbers of resources available online at no cost such as: [CSS Tutorial - Full
 
 - To deploy my resume I used a static website on Blob Storage because it was inexpensive to run and simple to deploy. Despite the benefits, there are important considerations that need to be taken into account. To learn about them please follow the [link](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host) to learn more about Hosting a static website on Blob Storage.
 
+### Enable HTTPS and custom domain support
+
+- I then both a domain from Azure CDN, configured and connected the CDN profile and finally enable HTTPS so that users could connect to my resume safely. 
+If you want to learn how to configure CDN profile and endpoint click [here](https://learn.microsoft.com/en-us/azure/cdn/cdn-create-new-endpoint).
+
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
