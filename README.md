@@ -1,6 +1,6 @@
-# Project Title
+# CRC Challenge 
 
-Simple overview of use/purpose.
+Thank you for visiting my repo, keep learning and keep improving 💪
 
 ## Description
 
