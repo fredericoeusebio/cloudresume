@@ -1,6 +1,8 @@
-# CRC Challenge 
+# CRC - Cloud Resume Challenge 
 
 Thank you for visiting my repo, keep learning and keep improving 💪
+
+This is my resume hosted in Azure. The CRC was originally created by *[Forest Brazeal](https://forrestbrazeal.com/#about)* 
 
 ## Description
 
