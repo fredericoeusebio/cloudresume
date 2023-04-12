@@ -22,7 +22,7 @@ individuals develop cloud skills.
 
 ### Create a GitHub Repository (Repo)
 
-- Creating a GitHub repo was the first step to complete this challenge both because it is good practice to store your projects in a remote repo and because its a 
+- A GitHub repo was the first step to complete this challenge both because it is good practice to store your projects in a remote repo and because its a 
 widely used source control software used by millions of developers for collaborative purposes and to keep track of work completed. [Please follow the link to 
 learn how to create a github repo.](https://docs.github.com/en/get-started/quickstart/create-a-repo) 
 
@@ -30,6 +30,10 @@ learn how to create a github repo.](https://docs.github.com/en/get-started/quick
 
 - My resume was written in HTML and styled with CSS. To understand more of both languages I took a course on Pluralsight, which is a paid course however, there are 
 a numbers of resources available online at no cost such as: [CSS Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=OXGznpKZ_sA) and [HTML Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=kUMe1FH4CHE).
+
+### Deploy the website to Azure Blob Storage
+
+- To deploy my resume I used a static website on Blob Storage because it was inexpensive to run and simple to deploy. Despite the benefits, there are important considerations that need to be taken into account. To learn about them please follow the [link](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host) to learn more about Hosting a static website on Blob Storage.
 
 ## Acknowledgments
 
