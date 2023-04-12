@@ -45,7 +45,7 @@ jobs:
         with:
           scope: subscription
           region: ${{ env.location }}
-          subscriptionId: ${{ env.subscriptionId }}
+          subscriptionId: ${{secrets.AZURE_SUBSCRIPTION_ID}}}
           deploymentName: ${{ env.resource_group_name }}
           template: ./bicep-template/resourcegroup.bicep
           parameters:
