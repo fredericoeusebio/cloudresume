@@ -29,7 +29,7 @@ learn how to create a github repo.](https://docs.github.com/en/get-started/quick
 ### Use HTML and CSS to build the website and store the code in the repo
 
 - My resume was written in HTML and styled with CSS. To understand more of both languages I took a course on Pluralsight, which is a paid course however, there are 
-a numbers of resources available online at no cost. 
+a numbers of resources available online at no cost such as: [CSS Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=OXGznpKZ_sA) and [HTML Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=kUMe1FH4CHE).
 
 ## Acknowledgments
 
