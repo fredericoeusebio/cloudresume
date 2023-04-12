@@ -9,10 +9,10 @@ individuals develop cloud skills.
 
 ## Introduction
 
-✔Create a GitHub repo.
-✔Use HTML and CSS to build the website and store the code in the repo.
-Add a visitor count to the website.
-✔Deploy the website to Azure Blob Storage.
+1.✔Create a GitHub repo.
+1.✔Use HTML and CSS to build the website and store the code in the repo.
+1.Add a visitor count to the website.
+1.✔Deploy the website to Azure Blob Storage.
 ✔Enable HTTPS and custom domain support.
 ✔Set up GitHub Actions.
 Configure IaC using Github Actions and Azure Bicep
