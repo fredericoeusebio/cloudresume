@@ -13,52 +13,16 @@ individuals develop cloud skills.
 - ✔Use HTML and CSS to build the website and store the code in the repo.
 - Add a visitor count to the website.
 - ✔Deploy the website to Azure Blob Storage.
-- Enable HTTPS and custom domain support.
+- ✔Enable HTTPS and custom domain support.
 - Set up GitHub Actions.
 - Configure IaC using Github Actions and Azure Bicep
 - Write a blog post.
 
-## Getting Started
+## My Progress
+
+### Create a GitHub Repo
 
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
