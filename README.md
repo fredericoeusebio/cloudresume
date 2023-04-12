@@ -20,9 +20,11 @@ individuals develop cloud skills.
 
 ## My Progress
 
-### Create a GitHub Repo
+### Create a GitHub Repository (Repo)
 
-
+- Creating a GitHub repo was the first step to complete this challenge both because it is good practice to store your projects in a remote repo and because its a 
+widely used source control software used by millions of developers for collaborative purposes and to keep track of work completed. [Please follow the link to 
+learn how to create a github repo.](https://docs.github.com/en/get-started/quickstart/create-a-repo) 
 
 ## Acknowledgments
 
