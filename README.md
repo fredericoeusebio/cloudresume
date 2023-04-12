@@ -14,16 +14,12 @@ individuals develop cloud skills.
 - Add a visitor count to the website.
 - ✔Deploy the website to Azure Blob Storage.
 - Enable HTTPS and custom domain support.
--Set up GitHub Actions.
-Configure IaC using Github Actions and Azure Bicep
-Write a blog post.
+- Set up GitHub Actions.
+- Configure IaC using Github Actions and Azure Bicep
+- Write a blog post.
 
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Installing
 
